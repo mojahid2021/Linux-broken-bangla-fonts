@@ -26,8 +26,8 @@ This script is designed for:
 
 1. **Download the script**
    ```bash
-   git clone https://github.com/your-username/fix-broken-bangla-fonts-debian.git
-   cd fix-broken-bangla-fonts-debian
+   git clone https://github.com/mojahid2021/Linux-broken-bangla-fonts.git
+   cd Linux-broken-bangla-fonts
 
 2. **Run the script** 
     ```
