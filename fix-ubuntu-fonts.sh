@@ -10,7 +10,7 @@ echo "🔧 Fixing broken Bangla fonts on Ubuntu..."
 # Step 1: Install necessary Bangla fonts
 echo "📦 Installing necessary fonts..."
 sudo apt-get update
-sudo apt-get install -y fonts-noto fonts-noto-core fonts-noto-ui-core fonts-bengali
+sudo apt-get install -y fonts-noto fonts-noto-core fonts-noto-ui-core fonts-indic
 
 # Step 2: Remove conflicting FreeFont fonts
 echo "🧹 Removing conflicting FreeFont files..."
