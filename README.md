@@ -9,7 +9,12 @@ This script automates the process of fixing broken **Bangla** (Bengali) font ren
   - `fonts-noto-ui-core`
   - `fonts-beng`
   - `font-noto-bengali`
-  - `fonts-indic` - Only for Ubuntu
+  - `fonts-indic` - Especially for **Ubuntu**
+  - `google-noto-sans-fonts` - Especially for **Fedora**
+  - `google-noto-serif-fonts` - Especially for **Fedora**
+  - `google-noto-sans-mono-fonts` - Especially for **Fedora**
+  - `dejavu-sans-fonts` - Especially for **Fedora**
+  - `dejavu-serif-fonts` - Especially for **Fedora**
 - Removes conflicting FreeFont files that may cause broken rendering.
 - Refreshes the font cache system-wide.
 
@@ -44,15 +49,18 @@ This script is designed for:
     ```
       - **For Fedora**
       ```
-      Not tested
+      chmod +x fix-fedora-fonts.sh
+      sudo ./fix-fedora-fonts.sh
       ```
       - **For Linux Mint**
       ```
-      Not tested
+      chmod +x fix-linux-mint-fonts.sh
+      sudo ./fix-linux-mint-fonts.sh
       ```
       - **For Pop!_OS**
       ```
-      Not tested
+      chmod +x fix-popos-fonts.sh
+      sudo ./fix-popos-fonts.sh
       ```      
 ## 🔁 After Running
 Restart your browser or any affected application. A full system reboot is recommended for best results.
